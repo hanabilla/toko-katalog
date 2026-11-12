@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Lapak</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1 id="shopName">Nama Lapak</h1>
+    <p>Italian Charm Bracelet dan aksesori. Pilih charm favoritmu dan tanyakan lewat asisten kami.</p>
+    <div class="hero-actions">
+      <a class="btn" id="shopeeLink" target="_blank" rel="noopener">Kunjungi di Shopee</a>
+      <a class="btn btn-wa" id="waMain" target="_blank" rel="noopener">Chat WhatsApp</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Katalog Produk</h2>
+    <div id="filters" class="filters"></div>
+    <div id="grid" class="grid">Memuat produk...</div>
+  </main>
+
+  <button id="chatToggle" class="chat-toggle">💬 Tanya Asisten</button>
+  <div id="chatBox" class="chat-box hidden">
+    <div class="chat-head"><span id="chatTitle">Asisten</span><button id="chatClose">✕</button></div>
+    <div id="chatMessages" class="chat-messages"></div>
+    <div class="chat-input">
+      <input id="chatInput" type="text" placeholder="Tanya produk..." autocomplete="off">
+      <button id="chatSend">Kirim</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
