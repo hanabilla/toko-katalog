@@ -1,5 +1,5 @@
 const SHOP_NAME = "Charmigos";
-const WA_NUMBER = "62xxxxxxxxxx";
+const WA_NUMBER = "62895423714747";
 const SHOPEE_URL = "https://shopee.co.id/charmigos";
 
 let products = [];
